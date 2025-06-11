@@ -8,7 +8,7 @@ function sum(a,b){
 
 //module.exports help us to export variable/function from file
 module.exports={
-    sum:sum
+    sum
 }
 
 

@@ -1,13 +1,15 @@
 //COMMON JS PATTERN
 require('./xyz.js')
 
-const obj = require('./sum.js');
+const {sum} = require('./calculate/sum.js');
+const { multiply} = require('./calculate/multiply.js')
 
 var name = 'Learn nodejs';
 var a = 10;
 var b = 20;
 
-obj.sum(a,b);
+sum(a,b);
+multiply(a,b)
 
 
 
